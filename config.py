@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "23392712"))
-API_HASH = getenv("API_HASH", "7cb236b197b25c243fa83e7e0173d0e6")
+API_ID = int(getenv("API_ID", "27345751"))
+API_HASH = getenv("API_HASH", "2f4074e9f5a56e99fd9ba562f2314523")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://BWFMUSIC:BWFMUSIC@cluster0.xwnup2l.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5400))
 
@@ -22,10 +22,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002111675614"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002260119965"))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "5820831398"))
+OWNER_ID = int(getenv("OWNER_ID", "7282582221"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALL_QUIZ_TAME")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWF_MUSIC1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TG_STYLISH_NAME_BIO")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIEND_KI_MASTI")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "false"))
@@ -86,10 +86,10 @@ clean = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+    "START_IMG_URL", "https://envs.sh/GJg.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+    "PING_IMG_URL", "https://envs.sh/GJg.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
